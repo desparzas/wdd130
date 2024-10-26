@@ -1,123 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="Contact Rafting for inquiries, reservations. Reach us through email, cellphone or visit us in person."
-    />
+      content="Rafting offers adventures for all ages. Contact us :)"
+    >
 
-    <title>Rafting Contact</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Rafting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/rafting.css" />
+   >
+    <link rel="stylesheet" href="styles/rafting.css">
   </head>
   <body>
     <header class="header-grid">
-      <img src="images/rafinglogo.png" alt="Rafting logo" />
+      <img src="images/rafinglogo.png" alt="Rafting logo">
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
+          <li><a href="trips.html">Trips</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="contact-info">
-        <h2>Contact Information</h2>
-        <p>Address: 123 Rafting St, Lima, Peru</p>
-        <p>Phone: +51 987 654 321</p>
-        <p>Email: contact@rafting.com</p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2361.782941744854!2d-77.07019730933781!3d-12.095678784703889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1729370661992!5m2!1ses-419!2spe"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </section>
-
-      <section class="container">
-        <h2>Our Team</h2>
-        <div class="employee-profiles">
-          <figure class="employee">
-            <img src="images/person1.jpg" alt="Happy employee 1" />
-            <figcaption>David Esparza - CEO</figcaption>
-          </figure>
-          <figure class="employee">
-            <img src="images/person2.jpg" alt="Happy employee 2" />
-            <figcaption>Bruno Sanchez - Customer Service</figcaption>
-          </figure>
-          <figure class="employee">
-            <img src="images/person3.webp" alt="Happy employee 3" />
-            <figcaption>Alberto Esparza - Tour Guide</figcaption>
-          </figure>
-        </div>
+      <section class="hero-main">
+        <h1 class="hero-title">Are you ready?</h1>
       </section>
 
       <section class="contact-form">
-        <h2>Get in Touch</h2>
+        <h2>Sign Up for Our Newsletter</h2>
         <form action="#" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <fieldset class="radio-group">
-            <legend>Purpose of your message:</legend>
-            <label>
-              <input type="radio" name="purpose" value="general" />
-              General Inquiry
-            </label>
-            <label>
-              <input type="radio" name="purpose" value="reservation" />
-              Reservation Question
-            </label>
-            <label>
-              <input type="radio" name="purpose" value="suggestion" />
-              Website Suggestion
-            </label>
-          </fieldset>
-
-          <label for="message">Message:</label>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
           <textarea id="message" name="message" required></textarea>
-
-          <label>
-            <input type="checkbox" name="newsletter" />
-            Please subscribe me to the monthly newsletter
-          </label>
-
           <button type="submit">Submit</button>
         </form>
+      </section>
+
+      <section class="activities">
+        <h3>Our Activities</h3>
+        <div class="activity-list">
+          <div class="activity-item">
+            <h4>Half-Day Rafting</h4>
+            <p>
+              Experience the thrill of rafting in the morning or afternoon with
+              our expert guides.
+            </p>
+          </div>
+          <div class="activity-item">
+            <h4>Full-Day Rafting Adventure</h4>
+            <p>
+              Join us for an exciting full day of rafting and exploring the
+              beautiful river scenery.
+            </p>
+          </div>
+          <div class="activity-item">
+            <h4>Family Rafting Trip</h4>
+            <p>
+              A perfect activity for families looking to bond and enjoy the
+              great outdoors together.
+            </p>
+          </div>
+          <div class="activity-item">
+            <h4>White Water Kayaking</h4>
+            <p>
+              Learn how to kayak in rapids with our skilled instructors for an
+              unforgettable experience.
+            </p>
+          </div>
+          <!-- Add more activities as needed -->
+        </div>
+      </section>
+
+      <section class="cta">
+        <h3>Ready to Dive In?</h3>
+        <a href="trips.html" class="cta-button">Explore Our Trips</a>
+      </section>
+
+      <section class="offerings">
+        <h3>Our Offerings</h3>
+        <div class="grid-container">
+          <figure class="grid-item">
+            <img src="images/adventures.jpg" alt="Offering 1">
+            <figcaption>
+              <p>Rafting Adventures</p>
+              <p>Experience thrilling white water rafting.</p>
+            </figcaption>
+          </figure>
+          <figure class="grid-item">
+            <img src="images/guided-tour.avif" alt="Offering 2">
+            <figcaption>
+              <p>Guided Tours</p>
+              <p>Join our expert guides for an unforgettable trip.</p>
+            </figcaption>
+          </figure>
+          <figure class="grid-item">
+            <img src="images/family-friendly.jpg" alt="Offering 3">
+            <figcaption>
+              <p>Family-Friendly</p>
+              <p>Activities suitable for all ages.</p>
+            </figcaption>
+          </figure>
+        </div>
       </section>
     </main>
     <footer>
       <p>
         &copy;2024 | David Esparza | Lima Perú |
         <a
-          href="https://app.moqups.com/0VZzH26XeBajJ9pLmUU478yMzXFBoDbd/view/page/acaaa9c8c"
+          href="https://app.moqups.com/0VZzH26XeBajJ9pLmUU478yMzXFBoDbd/view/page/a4f86fed0"
           >Mockup</a
         >
       </p>
 
       <nav class="sociallinks">
         <a href="https://fb.com">
-          <img src="images/fb.png" alt="Facebook" />
+          <img src="images/fb.png" alt="Facebook">
         </a>
         <a href="https://twitter.com">
-          <img src="images/twitter.png" alt="Twitter" />
+          <img src="images/twitter.png" alt="Twitter">
         </a>
         <a href="https://instagram.com">
-          <img src="images/ig.png" alt="Instagram" />
+          <img src="images/ig.png" alt="Instagram">
         </a>
       </nav>
     </footer>
